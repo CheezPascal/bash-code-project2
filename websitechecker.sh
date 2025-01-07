@@ -23,6 +23,8 @@ echo "$(printf '#%.0s' {1..5}) 2. Load websites from a file $(printf '#%.0s' {1.
 echo "$(printf '#%.0s' {1..40})"
 echo ""
 read -p "Choose an option [1-2]: " choice
+echo ""
+echo ""
 
 if [ "$choice" -eq 1 ]; then
     read -p "Enter websites separated by spaces: " -a websites
