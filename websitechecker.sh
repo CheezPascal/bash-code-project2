@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Function to check website availability
+# Function to check website availability.
 check_website() {
     local website=$1
     local timestamp=$(date "+%Y-%m-%d %H:%M:%S")
